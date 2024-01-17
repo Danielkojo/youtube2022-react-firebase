@@ -59,7 +59,7 @@ const Single = () => {
                 <div className="detailItem">
                   <span className="itemKey">Address:</span>
                   <span className="itemValue">
-                    Elton St. 234 Garden Yd. NewYork
+                  {userData?.phone}
                   </span>
                 </div>
                 <div className="detailItem">
