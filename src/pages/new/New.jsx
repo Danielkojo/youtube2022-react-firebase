@@ -84,7 +84,6 @@ const [country, setCountry] = useState('');
         displayName,
         email,
         phone,
-        password,
         address,
         country,
         role: "user",

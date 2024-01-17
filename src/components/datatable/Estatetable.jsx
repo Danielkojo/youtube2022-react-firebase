@@ -33,7 +33,7 @@ const Estatetable = () => {
 
     // LISTEN (REALTIME)
     const unsub = onSnapshot(
-      collection(db, "Product"),
+      collection(db, "Estate"),
       (snapShot) => {
         let list = [];
         snapShot.docs.forEach((doc) => {
@@ -53,7 +53,7 @@ const Estatetable = () => {
 
   const handleDelete = async (id) => {
     try {
-      await deleteDoc(doc(db, "Product", id));
+      await deleteDoc(doc(db, "Estate", id));
       setData(data.filter((item) => item.id !== id));
     } catch (err) {
       console.log(err);

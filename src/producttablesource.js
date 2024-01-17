@@ -12,7 +12,7 @@ export const userColumns = [
     width: 100,
   },
   {
-    field: "Quantity",
+    field: "quantity",
     headerName: "Quantity",
     width: 100,
   },

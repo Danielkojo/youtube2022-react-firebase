@@ -1,13 +1,13 @@
 export const userColumns = [
 
   {
-    field: "BuildingType",
+    field: "Type",
     headerName: "Building Type",
     width: 150,
   },
 
   {
-    field: "Price",
+    field: "Size",
     headerName: "Size",
     width: 100,
   },
