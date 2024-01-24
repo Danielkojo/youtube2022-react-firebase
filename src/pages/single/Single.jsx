@@ -10,7 +10,7 @@ import { db } from '../../firebase';
 const Single = () => {
   const [userData, setUserData] = useState(null);
   const { userId } = useParams();
-
+//
 
   useEffect(() => {
     const fetchData = async () => {
